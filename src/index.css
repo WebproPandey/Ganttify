@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Home{
+    background-image: url('./assets/Bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+    
+}
+.graph{
+    background-image: url('./assets/Frameline.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
