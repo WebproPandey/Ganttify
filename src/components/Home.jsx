@@ -18,7 +18,7 @@ const Home = () => {
         <div className="icons h-[104px] w-[104px] absolute top-[-20px] left-[40%] -translate-x-1/2">
           <img src={timeicon} alt="" />
         </div>
-        <div className="icons h-[104px] w-[104px] absolute bottom-[10px] right-[-15%]">
+        <div className="icons h-[104px] w-[104px] absolute bottom-[10px] right-[-8%]">
           <img src={calander} alt="" />
         </div>
         <div className="icons h-[104px] w-[104px] absolute bottom-[50px] -translate-y-1/2 left-[-5%]">
