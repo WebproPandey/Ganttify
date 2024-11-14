@@ -5,8 +5,8 @@ import Illustration3 from "../assets/Illustration3.png";
 import Illustration4 from "../assets/Illustration4.png";
 const Feature = () => {
   return (
-    <div className="min-h-screen  w-full  flex flex-col  gap-[70px] justify-center items-center  ">
-      <div className="headingwraper h-[165px] w-[85%] py-[8px] px-[10px] flex flex-col gap-[6px]">
+    <div className="min-h-screen  w-full  flex flex-col  p-[104px] gap-[70px] justify-center items-center  ">
+      <div className="headingwraper h-[165px] w-full py-[8px] px-[10px] flex flex-col gap-[6px]">
       <div className="logo">
         <div className="w-[93px] h-[28px] ">
           <img src={badge} className="h-full w-full object-cover" alt="" srcset="" />
@@ -21,7 +21,7 @@ const Feature = () => {
         <p className="text-[18px] font-[400] leading-relaxed tracking-tight">Ganttify’s exceptional flexibility can handle any type of work. And we never stop innovating</p>
       </div>
       </div>
-      <div className="container h-[962px] w-[85%] flex flex-col  justify-center  items-center  gap-[8px]">
+      <div className="container h-[962px] w-full flex flex-col  justify-center  items-center  gap-[8px] ">
          <div className="topcartwraper h-[477px] w-full flex gap-[8px] justify-center  items-center">
             <div className="leftcart h-full w-1/2 p-[28px] flex flex-col gap-[32px]">
               <div className="image">

@@ -23,3 +23,10 @@
     background-repeat: no-repeat;
     
 }
+.contact{
+    background-image: url('./assets/Bg2.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}

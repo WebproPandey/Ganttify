@@ -6,6 +6,9 @@ import Home from "./components/Home";
 import Brand from "./components/Brand";
 import Feature from "./components/Feature";
 import Pricing from "./components/Pricing";
+import Customer from "./components/Customer";
+import Contact from "./components/Contact";
+import Fotter from "./components/Fotter";
 
 
 const App = () => {
@@ -17,6 +20,9 @@ const App = () => {
           <Brand/>
           <Feature/>
           <Pricing/>
+          <Customer/>
+          <Contact/>
+          <Fotter/>
       </div>
     </>
   );
