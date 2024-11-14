@@ -34,7 +34,7 @@ const Navbar = () => {
         Get Started
       </button>
     </div>
-    <div className="menubar h-[24px] w-[24px]">
+    <div className="menubar h-[24px] w-[24px] md:hidden block">
       <img src={menu} className='h-full w-full' alt="" />
     </div>
   </nav>
