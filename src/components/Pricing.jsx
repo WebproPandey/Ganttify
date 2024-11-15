@@ -2,7 +2,7 @@ import badge from "../assets/PricingBadge.svg";
 
 const Pricing = () => {
   return (
-    <div className="pricing h-[1953px] rounded-[24px] overflow-hidden md:rounded-none md:h-[989px] w-full flex flex-col  justify-start md:justify-center  items-center gap-[80px]  py-[40px] px-[16px] md:p-[104px] ">
+    <div className="pricing h-[2000px] rounded-[24px] overflow-hidden md:rounded-none md:h-[989px] w-full flex flex-col  justify-start md:justify-center  items-center gap-[80px]  py-[40px] px-[16px] md:p-[104px] ">
       <div className="headingwraper h-[250px]   md:h-[188px] w-full  flex flex-col justify-start gap-[20px]">
         <div className="logo">
           <div className="w-[82px] h-[28px] ">
@@ -30,7 +30,7 @@ const Pricing = () => {
           </div>
         </div>
       </div>
-      <div className="pricingcart h-[1600px] md:h-[513px] w-full flex flex-col  md:flex-row gap-[24px] justify-center items-center ">
+      <div className="pricingcart h-[1600px] md:h-[513px] w-full flex flex-col  md:flex-row gap-[24px] justify-center items-center mb-[20px] ">
         <div className="cartitem bg-[#ffffff]/10 rounded-[24px]  w-full h-[513px] flex justify-evenly flex-col gap-[24px] p-[24px]">
           <div className="header h-[137px] w-full ">
             <h1 className="text-[18px] font-[500] text-[#FFFFFF80] ">
@@ -276,7 +276,7 @@ const Pricing = () => {
             </div>
           </div>
         </div>
-        <div className="cartitem bg-[#ffffff]/10 rounded-[24px]  w-full h-[513px] flex flex-col justify-evenly gap-[24px] p-[24px]">
+        <div className="cartitem bg-[#ffffff]/10 rounded-[24px]  w-full h-[513px] flex flex-col justify-evenly gap-[24px] p-[24px] ">
           <div className="header h-[137px] w-full ">
             <h1 className="text-[18px] font-[500] text-[#FFFFFF80] ">
               Beyond limits  

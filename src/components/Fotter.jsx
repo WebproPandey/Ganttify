@@ -9,31 +9,31 @@ import chevrondown from '../assets/chevrondown.png'
 
 const Fotter = () => {
   return (
-    <footer className="bg-[#0D0D12] text-gray-400 mt-5  ">
-      <div className="h-[755px] pt-[80px] px-[104px] pb-[56px] flex flex-col justify-center items-center gap-[56px] ">
-        <div className="logowrapwr h-[44px] w-full  flex justify-between items-center ">
-         <div className="logo h-[28px] w-[103px] flex justify-center  items-center">
+    <footer className="bg-[#0D0D12] text-gray-400 mt-5  rounded-[24px] md:rounded-none ">
+      <div className=" h-[1000px]  md:h-[755px] px-[20px] py-[16px] md:pt-[80px] md:px-[104px] md:pb-[56px] flex flex-col justify-start md:justify-center items-center gap-[56px] ">
+        <div className="logowrapwr h-[92px] md:h-[44px]  w-full  flex flex-col md:flex-row justify-between md:items-center  gap-4">
+         <div className="logo h-[28px] w-[103px] flex justify-center  items-center ">
         <div>
           <img src={logo} alt="" />
         </div>
        
          </div>
-         <div className="socailicon h-full w-[136px] flex gap-1">
-             <button className='h-[44px] w-[44px] rounded-[10px] overflow-hidden '>
+         <div className="socailicon h-full w-[136px] flex  gap-1 items-end">
+             <button className=' h-[40px] w-[40px] md:h-[44px] md:w-[44px] rounded-[10px] overflow-hidden '>
                 <img src={socailicon1}  className="h-full w-full  object-cover"  alt="" />
              </button>
-             <button className='h-[44px] w-[44px] rounded-[10px] overflow-hidden '>
+             <button className=' h-[40px] w-[40px] md:h-[44px] md:w-[44px] rounded-[10px] overflow-hidden '>
                 <img src={socailicon2}  className="h-full w-full  object-cover"  alt="" />
              </button>
-             <button className='h-[44px] w-[44px] rounded-[10px] overflow-hidden '>
+             <button className=' h-[40px] w-[40px] md:h-[44px] md:w-[44px] rounded-[10px] overflow-hidden '>
                 <img src={socailicon3}  className="h-full w-full  object-cover"  alt="" />
              </button>
          </div>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-5 w-full gap-6">
+        <div className=" w-full grid grid-cols-2 md:grid-cols-5 md:w-auto gap-6">
           <div>
             <h3 className="text-white font-semibold mb-4">Ganttify</h3>
-            <ul className="space-y-2">
+            <ul className=" text-[14px] md:text-[18px] ">
               <li>Home</li>
               <li>Product</li>
               <li>Pricing</li>
@@ -45,7 +45,7 @@ const Fotter = () => {
 
           <div>
             <h3 className="text-white font-semibold mb-4">Solutions</h3>
-            <ul className="space-y-2">
+            <ul className=" text-[14px] md:text-[18px] ">
               <li>Project Management</li>
               <li>Goal Management</li>
               <li>Agile Management</li>
@@ -58,7 +58,7 @@ const Fotter = () => {
           </div>
           <div>
             <h3 className="text-white font-semibold mb-4">About Us</h3>
-            <ul className="space-y-2">
+            <ul className="text-[14px] md:text-[18px]">
               <li>Company</li>
               <li>Leadership</li>
               <li>Customers</li>
@@ -69,7 +69,7 @@ const Fotter = () => {
 
           <div>
             <h3 className="text-white font-semibold mb-4">Resources</h3>
-            <ul className="space-y-2">
+            <ul className="text-[14px] md:text-[18px]">
               <li>Help Center</li>
               <li>FAQ</li>
               <li>Developers & API</li>
@@ -80,7 +80,7 @@ const Fotter = () => {
           </div>
           <div>
             <h3 className="text-white font-semibold mb-4">Helpful Links</h3>
-            <ul className="space-y-2">
+            <ul className="text-[14px] md:text-[18px]">
               <li>Legal Center</li>
               <li>Privacy Policy</li>
               <li>Partnerships</li>
@@ -88,11 +88,13 @@ const Fotter = () => {
           </div>
         </div>
         <div className='w-full h-[1px] bg-gray-400'></div>
-        <div className='flex flex-col   w-full md:flex-row  justify-between items-center '>
-          <div className="flex justify-center items-center space-x-2 bg-[#1A1B25] px-[8px] py-[10px] rounded-[10px]">
+        <div className='flex flex-col   w-full  md:flex-row  justify-between items-center '>
+          <div className="flex justify-between  md:justify-center items-center w-full md:w-auto space-x-2 bg-[#1A1B25] py-[12px] px-[10px]  rounded-[24px]  md:px-[8px] md:py-[10px] md:rounded-[10px]">
+            <div className='flex justify-center  items-center gap-2'>
             <img src={cirtylogo} className='h-[20px] w-[20px]' alt="" />
             <span>United States</span>
-             <span className='h-[16px] w-[16px] rounded-full border'>
+            </div>
+             <span className='h-[16px] w-[16px] rounded-full border '>
                 <img src={chevrondown} className='h-full w-full object-cover' alt="" />
              </span>
           </div>

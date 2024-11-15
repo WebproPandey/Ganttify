@@ -8,8 +8,8 @@ import Avatars6 from "../assets/Avatars6.png";
 
 const Customer = () => {
   return (
-    <div className="min-h-screen w-full flex flex-col gap-[80px] p-[104px] justify-center items-center">
-      <div className="headingwraper h-[227px] w-full  flex flex-col gap-[24px] justify-center items-center ">
+    <div className="min-h-screen w-full flex flex-col gap-[80px] md:p-[104px] px-[16px]   justify-start  md:justify-center items-center">
+      <div className="headingwraper h-[300px]   md:h-[227px] w-full  flex flex-col gap-[24px] justify-center items-center ">
         <div className="logo">
           <div className="w-[107px] h-[28px] ">
             <img
@@ -20,22 +20,22 @@ const Customer = () => {
             />
           </div>
         </div>
-        <div className="headingwraper h-[140px] w-full flex gap-6 flex-col justify-center  items-center">
-          <div className="heading w-[55%] ">
-            <h1 className="text-[56px] font-[600] leading-[70px] text-[#0D0D12]  text-center tracking-tighter">
+        <div className="headingwraper  h-[200px] md:h-[140px] w-full flex gap-6 flex-col justify-center  items-center">
+          <div className="heading md:w-[55%] ">
+            <h1 className="text-[48px] md:text-[56px] font-[600] leading-[60px] md:leading-[70px] text-[#0D0D12]  text-center  tracking-tighter">
               See What Our Customers Are Saying
             </h1>
           </div>
           <div className="discription">
-            <p className=" font-[400] text-[18px] leading-[27px] tracking-tighter">
+            <p className=" font-[400] text-[18px] text-center  md:text-start leading-[27px] tracking-tighter">
               {" "}
               Here's what some of our customers say about our platform.
             </p>
           </div>
         </div>
       </div>
-      <div className="CustomerContainer h-[584px] w-full flex flex-col gap-[24px] justify-center  items-center relative">
-        <div className="TopCustomer   w-full   flex gap-[24px] justify-center  items-center">
+      <div className="CustomerContainer h-[970px] md:h-[584px] w-full flex flex-col gap-[24px] justify-center  items-center relative">
+        <div className="TopCustomer   w-full   flex gap-[24px] flex-col md:flex-row justify-center  items-center">
           <div className="firstCustomer h-[280px]  p-[16px] flex flex-col  justify-center gap-[20px] bg-white border border-gray-200 rounded-[20px] shadow-lg">
             <div className="flex items-center mb-4">
               <div className="flex text-purple-600 space-x-1">
@@ -156,7 +156,7 @@ const Customer = () => {
             </div>
           </div>
         </div>
-        <div className="bottomCustomer   w-full   flex gap-[24px] justify-center  items-center">
+        <div className="bottomCustomer w-full hidden md:flex gap-[24px] justify-center items-center">
           <div className="firstCustomer h-[280px] w-[33%]  p-[16px] flex flex-col  justify-center gap-[20px] bg-white border border-gray-200 rounded-[20px] shadow-lg">
             <div className="flex items-center mb-4">
               <div className="flex text-purple-600 space-x-1">
@@ -276,7 +276,7 @@ const Customer = () => {
           </div>
         </div>
         <div
-          className="Overlay absolute h-[513px] w-full bottom-0 left-0"
+          className="Overlay absolute h-[513px] w-full bottom-0 left-0  hidden md:block"
           style={{
             background:
               "linear-gradient(180deg, rgba(255, 255, 255, 0) 10%, #FFFFFF 100%)",
